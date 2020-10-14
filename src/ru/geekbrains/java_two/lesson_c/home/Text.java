@@ -46,7 +46,7 @@ public class Text {
         return hashMapText;
     }
 
-    public ArrayList textToListNotDuplicate (String[][] matrixString){  //создание списка из массива без дублей
+    private ArrayList textToListNotDuplicate (String[][] matrixString){  //создание списка из массива без дублей
         ArrayList<String> listText = new ArrayList<>();
         for (int i = 0; i < matrixString.length; i++) {
             for (int j = 0; j < matrixString[i].length; j++) {
