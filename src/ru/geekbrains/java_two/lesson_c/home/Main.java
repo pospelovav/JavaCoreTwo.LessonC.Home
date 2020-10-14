@@ -1,7 +1,5 @@
 package ru.geekbrains.java_two.lesson_c.home;
 
-import java.util.Map;
-
 public class Main {
 
 
